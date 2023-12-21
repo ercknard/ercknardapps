@@ -85,7 +85,7 @@ export default function RealYield() {
                         {item.poolpercentage}
                       </div>
                     </div>
-                    <div className="flex gap-4 justify-center items-center">
+                    <div className="flex gap-4 justify-center">
                       <div className="flex flex-col gap-4 min-w-[20rem]">
                         <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-12">
                           {item.pooldescription}
