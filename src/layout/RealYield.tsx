@@ -12,6 +12,7 @@ const pools = [
     btn1: "Mint",
     btn2: "Collect",
     btn3: "Docs",
+    aspects: "aspect-video",
   },
   {
     name: "2",
@@ -19,7 +20,7 @@ const pools = [
     href: "#",
     poolpercentage: "STAR Harvesters",
     pooldescription: "Provide holders with STARV3-Materia tokens.",
-    keyvid: "/Videos/martiancollectorGIFlargedetailed.gif",
+    keyvid: "/Videos/STAR-M Harvester.gif",
     btn1: "Mint",
     btn2: "Collect",
     btn3: "Docs",
@@ -41,7 +42,7 @@ const pools = [
     href: "https://docs.sdao.pro/",
     poolpercentage: "STAR Destroyers",
     pooldescription: "Provide holders with STARV3 tokens.",
-    keyvid: "/Videos/martiancollectorGIFlargedetailed.gif",
+    keyvid: "/Videos/Martian Destroyer GIF regular sized.gif",
     btn1: "Mint",
     btn2: "Collect",
     btn3: "Docs",
@@ -84,9 +85,9 @@ export default function RealYield() {
                         {item.poolpercentage}
                       </div>
                     </div>
-                    <div className="flex gap-12 justify-center items-center">
-                      <div className="flex flex-col gap-4">
-                        <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-12">
+                    <div className="flex gap-4 justify-center items-center">
+                      <div className="flex flex-col gap-4 min-w-[20rem]">
+                        <div className="text-lg text-gray-400 font-extralight text-left normal-case min-h-12">
                           {item.pooldescription}
                         </div>
                         <Button className="py-[12px] px-[24px] bg-[#3d75d8] rounded-lg min-w-[9rem] text-white font-medium">
@@ -108,7 +109,7 @@ export default function RealYield() {
                         <source src={item.keyvid} type="video/mp4" />
                       </video> */}
                       <Image
-                        className="w-6/12 aspect-video"
+                        className="max-w-6/12"
                         alt=""
                         width={600}
                         height={600}
