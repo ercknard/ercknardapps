@@ -6,6 +6,7 @@ import TokenTech from "@/layout/TokenTechnology";
 import CoinChart from "@/layout/CoinChart";
 import Swap from "@/layout/Swap";
 import TradingGuide from "@/layout/TradingGuide";
+import RealYield from "@/layout/RealYield";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CoinChart />
       <Swap />
       <TradingGuide />
+      <RealYield />
     </main>
   );
 }
