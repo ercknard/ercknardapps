@@ -39,7 +39,7 @@ export default function Balancer() {
         <div>
           <div className="my-8">
             <div className="text-center text-lg lg:text-4xl font-semibold mx-auto text-[#d4d4d4] mb-2">
-              Balancer Liquidity Poolss
+              Balancer Liquidity Pools
             </div>
             <div className="text-center text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
               Benefit from automated arbitrage trading bots that multiply volume
