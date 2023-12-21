@@ -89,7 +89,7 @@ export default function Navigation() {
             <span className="sr-only">Starseeds</span>
             <Image
               className="h-12 w-auto rounded-full"
-              src="/images/metatron-logo.jpg"
+              src="/images/metatron-logo.webp"
               alt=""
               width={256}
               height={256}
@@ -214,7 +214,7 @@ export default function Navigation() {
               <span className="sr-only">Cryptech Services</span>
               <Image
                 className="h-12 w-auto rounded-full"
-                src="/images/metatron-logo.jpg"
+                src="/images/metatron-logo.webp"
                 alt=""
                 width={256}
                 height={256}
