@@ -41,7 +41,7 @@ export default function Landing() {
           {/* <span className="image-cover" /> */}
           <Image
             className="m-auto w-11/12"
-            src="/images/bg.webp"
+            src="/Images/bg.webp"
             alt=""
             width={1024}
             height={1114}

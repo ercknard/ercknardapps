@@ -49,7 +49,7 @@ export default function TokenTech() {
               <div>
                 <Image
                   className="w-[2.5rem] rounded-full z-10"
-                  src="/images/metatron-logo.webp"
+                  src="/Images/metatron-logo.webp"
                   alt=""
                   width={1024}
                   height={1114}

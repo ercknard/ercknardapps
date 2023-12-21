@@ -60,14 +60,14 @@ export default function Balancer() {
                     <div className="flex my-4">
                       <Image
                         className="w-1/12 rounded-full z-10"
-                        src="/images/metatron-logo.webp"
+                        src="/Images/metatron-logo.webp"
                         alt=""
                         width={1024}
                         height={1114}
                       />
                       <Image
                         className="relative w-1/12 rounded-full -left-1"
-                        src="/images/metatron-logo.webp"
+                        src="/Images/metatron-logo.webp"
                         alt=""
                         width={1024}
                         height={1114}
