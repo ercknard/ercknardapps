@@ -87,7 +87,7 @@ export default function RealYield() {
                     </div>
                     <div className="flex gap-4 justify-center items-center">
                       <div className="flex flex-col gap-4 min-w-[20rem]">
-                        <div className="text-lg text-gray-400 font-extralight text-left normal-case min-h-12">
+                        <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-12">
                           {item.pooldescription}
                         </div>
                         <Button className="py-[12px] px-[24px] bg-[#3d75d8] rounded-lg min-w-[9rem] text-white font-medium">
