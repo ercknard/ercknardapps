@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "@fontsource/teko";
 import "@fontsource/dm-sans";
 import "@/styles/globals.css";
+import StarsCanvas from "@/components/StarBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <StarsCanvas />
+        {children}
+      </body>
     </html>
   );
 }
