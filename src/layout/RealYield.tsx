@@ -72,22 +72,22 @@ export default function RealYield() {
               tokens and other benefits.
             </div>
           </div>
-          <div className="w-full flex flex-wrap my-4 gap-8 mx-auto">
+          <div className="w-full flex flex-wrap my-4 mt-8 gap-8 mx-auto">
             {pools.map((item) => (
-              <div key={item.name} className="w-full mx-auto p-4">
+              <div key={item.name} className="w-full mx-auto p-4 min-h-[25rem]">
                 <div className="w-full flex gap-8">
                   <div className="w-full">
-                    <div className="flex gap-4 items-center justify-center mb-4">
+                    {/* <div className="flex gap-4 items-center justify-center mb-4">
                       <div className="flex justify-center text-lg font-semibold text-gray-200 text-center items-center bg-[#444c81] rounded-[40px] w-[35px] h-[35px] ">
                         <span className="normal-case">{item.name}</span>
                       </div>
                       <div className="text-3xl font-bold text-gray-300 text-left normal-case mt-4 mb-4">
                         {item.poolpercentage}
                       </div>
-                    </div>
+                    </div> */}
                     <div className="flex gap-4 justify-evenly">
-                      <div className="flex flex-col gap-4 min-w-[30%]">
-                        <div className="text-2xl font-medium text-gray-300 text-left normal-case">
+                      <div className="flex flex-col min-w-[30%]">
+                        <div className="text-3xl font-bold text-gray-300 text-left normal-case">
                           {item.poolpercentage}
                         </div>
                         <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-12">
@@ -103,7 +103,7 @@ export default function RealYield() {
                         <Button className="py-[12px] px-[24px] bg-[#3d75d8] rounded-lg min-w-[9rem] text-white font-medium">
                           {item.btn1}
                         </Button>
-                        <Button className="py-[12px] px-[24px] bg-[#3d75d8] rounded-lg min-w-[9rem] text-white font-medium">
+                        <Button className="py-[12px] px-[24px] bg-[#3d75d8] rounded-lg min-w-[9rem] text-white font-medium my-4">
                           {item.btn2}
                         </Button>
                         <Button className="py-[12px] px-[24px] bg-[#3d75d8] rounded-lg min-w-[9rem] text-white font-medium">
@@ -119,7 +119,7 @@ export default function RealYield() {
                         <source src={item.keyvid} type="video/mp4" />
                       </video> */}
                       <Image
-                        className="w-[50%] lg:block hidden"
+                        className="w-[40%] lg:block hidden"
                         alt=""
                         width={600}
                         height={600}

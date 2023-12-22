@@ -49,7 +49,7 @@ body {
 .to-bg::before {
   content: "";
   position: absolute !important;
-  background: url("/images/bg.0d4c9dd2.jpg");
+  background: url("/Images/bg.0d4c9dd2.jpg");
   background-size: cover !important;
   width: calc(100vw - 2rem) !important;
   height: 100vh !important;
