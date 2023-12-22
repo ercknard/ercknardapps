@@ -38,7 +38,7 @@ const pools = [
 
 export default function TokenTech() {
   return (
-    <section className="w-full flex justify-center mx-auto items-center py-8">
+    <section className="lg:w-full w-[90%] flex justify-center mx-auto items-center py-8">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">
@@ -65,7 +65,7 @@ export default function TokenTech() {
             {pools.map((item) => (
               <Button
                 key={item.name}
-                className="w-full min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg mx-auto"
+                className="w-full lg:min-h-[13.5rem] min-h-0 bg-[#242842] p-4 lg:pt-0 border-2 border-[#1c1e32] rounded-lg mx-auto"
               >
                 <a className="w-full" href={item.href}>
                   <div className="flex justify-center text-lg font-semibold text-gray-200 text-center items-center bg-[#444c81] rounded-[40px] w-[35px] h-[35px] ">

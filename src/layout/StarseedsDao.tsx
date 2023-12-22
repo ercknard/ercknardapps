@@ -30,7 +30,7 @@ const pools = [
 
 export default function StarseedsDao() {
   return (
-    <section className="w-full flex justify-center mx-auto items-center py-8">
+    <section className="lg:w-full w-[90%] flex justify-center mx-auto items-center py-8">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">

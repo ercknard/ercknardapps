@@ -49,7 +49,7 @@ const defi = [
 
 export default function UnderstandingDefi() {
   return (
-    <section className="w-full flex justify-center mx-auto items-center py-8">
+    <section className="lg:w-full w-[90%] flex justify-center mx-auto items-center py-8">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">
@@ -63,7 +63,7 @@ export default function UnderstandingDefi() {
               staked holdings.
             </div> */}
           </div>
-          <div className="flex my-4 gap-8 mx-auto">
+          <div className="flex lg:flex-row flex-col my-4 gap-8 mx-auto">
             <div>
               <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
                 Basics
@@ -74,7 +74,7 @@ export default function UnderstandingDefi() {
                   className="w-full min-h-[7.5rem] p-4 pl-0 mx-auto"
                 >
                   <div className="w-full">
-                    <Button className="text-xl font-medium text-[#3d75d8] text-left normal-case mt-4 mb-2 pl-0">
+                    <Button className="text-xl font-medium text-[#3d75d8] text-left normal-case mt-4 mb-2 pl-0 underline underline-offset-2">
                       {item.poolpercentage}
                     </Button>
                     <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-12">
@@ -95,7 +95,7 @@ export default function UnderstandingDefi() {
                   className="w-full min-h-[7.5rem] p-4 pl-0 mx-auto"
                 >
                   <div className="w-full">
-                    <Button className="text-xl font-medium text-[#3d75d8] text-left normal-case mt-4 mb-2 pl-0">
+                    <Button className="text-xl font-medium text-[#3d75d8] text-left normal-case mt-4 mb-2 pl-0 underline underline-offset-2">
                       {item.poolpercentage}
                     </Button>
                     <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-12">

@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 
 export default function Landing() {
   return (
-    <section className="w-full h-screen flex justify-center mx-auto items-center">
+    <section className="lg:w-full w-[90%] min-h-screen flex justify-center mx-auto items-center">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div>
@@ -40,7 +40,7 @@ export default function Landing() {
         <div className="relative w-6/12">
           {/* <span className="image-cover" /> */}
           <Image
-            className="m-auto w-11/12"
+            className="m-auto w-11/12 lg:block hidden"
             src="/Images/bg.webp"
             alt=""
             width={1024}

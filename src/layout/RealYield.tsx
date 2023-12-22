@@ -51,7 +51,7 @@ const pools = [
 
 export default function RealYield() {
   return (
-    <section className="w-full flex justify-center mx-auto items-center py-8">
+    <section className="lg:w-full w-[90%] flex justify-center mx-auto items-center py-8">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div className="w-full">
           <div className="my-8 mx-auto">
@@ -93,6 +93,13 @@ export default function RealYield() {
                         <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-12">
                           {item.pooldescription}
                         </div>
+                        <Image
+                          className="w-screen lg:hidden"
+                          alt=""
+                          width={600}
+                          height={600}
+                          src={item.keyvid}
+                        ></Image>
                         <Button className="py-[12px] px-[24px] bg-[#3d75d8] rounded-lg min-w-[9rem] text-white font-medium">
                           {item.btn1}
                         </Button>
@@ -112,7 +119,7 @@ export default function RealYield() {
                         <source src={item.keyvid} type="video/mp4" />
                       </video> */}
                       <Image
-                        className="w-[50%]"
+                        className="w-[50%] lg:block hidden"
                         alt=""
                         width={600}
                         height={600}

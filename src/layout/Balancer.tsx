@@ -34,7 +34,7 @@ const pools = [
 
 export default function Balancer() {
   return (
-    <section className="w-full flex justify-center mx-auto items-center py-8">
+    <section className="lg:w-full w-[90%] flex justify-center mx-auto items-center py-8">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">
@@ -50,7 +50,7 @@ export default function Balancer() {
             {pools.map((item) => (
               <Button
                 key={item.name}
-                className="w-[48.5%] min-h-[13.5rem] bg-[#242842] border-2 border-[#1c1e32] p-4 rounded-lg"
+                className="lg:w-[48.5%] w-full min-h-[13.5rem] bg-[#242842] border-2 border-[#1c1e32] p-4 rounded-lg"
               >
                 <a className="w-full" href={item.href}>
                   <div className="w-full">

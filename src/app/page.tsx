@@ -12,7 +12,7 @@ import UnderstandingDefi from "@/layout/UnderstandingDefi";
 
 export default function Home() {
   return (
-    <main className="mx-auto 3xl:w-6/12 lg:w-[95%]">
+    <main className="mx-auto 3xl:w-6/12 lg:w-[95%] w-screen">
       <Navigation />
       <Landing />
       <Balancer />

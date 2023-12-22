@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 
 export default function CoinChart() {
   return (
-    <section className="w-full flex justify-center mx-auto items-center py-8">
+    <section className="lg:w-full w-[90%] flex justify-center mx-auto items-center py-8">
       <div className="w-full flex flex-col-reverse items-center justify-center gap-8">
         <div className="w-full">
           <div className="my-8">

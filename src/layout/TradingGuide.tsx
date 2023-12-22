@@ -38,7 +38,7 @@ const pools = [
 
 export default function TradingGuide() {
   return (
-    <section className="w-full flex justify-center mx-auto items-center py-8">
+    <section className="lg:w-full w-[90%] flex justify-center mx-auto items-center py-8">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8 text-center">
@@ -47,7 +47,7 @@ export default function TradingGuide() {
             </div>
           </div>
           <div className="flex my-4 gap-8 justify-start">
-            <Button className="w-[48.5%] min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg">
+            <Button className="lg:w-[48.5%] w-full lg:min-h-[13.5rem] min-h-0 bg-[#242842] p-4 lg:pt-0 border-2 border-[#1c1e32] rounded-lg">
               <a
                 className="w-full"
                 href="https://swap.dodoex.io/StarSeeds_Exchange"
@@ -65,8 +65,8 @@ export default function TradingGuide() {
               </a>
             </Button>
           </div>
-          <div className="flex my-8 gap-8">
-            <Button className="w-6/12 min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg">
+          <div className="flex lg:flex-row flex-col my-8 gap-8">
+            <Button className="lg:w-[48.5%] w-full min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg">
               <a
                 className="w-full"
                 href="https://swap.dodoex.io/StarSeeds_Exchange"
@@ -89,7 +89,7 @@ export default function TradingGuide() {
                 or
               </span>
             </div> */}
-            <Button className="w-6/12 min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg">
+            <Button className="lg:w-[48.5%] w-full min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg">
               <a
                 className="w-full"
                 href="https://swap.dodoex.io/StarSeeds_Exchange"
@@ -109,7 +109,7 @@ export default function TradingGuide() {
             </Button>
           </div>
           <div className="flex my-4 gap-8 justify-start">
-            <Button className="w-[48.5%] min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg">
+            <Button className="lg:w-[48.5%] w-full min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg">
               <a
                 className="w-full"
                 href="https://swap.dodoex.io/StarSeeds_Exchange"
