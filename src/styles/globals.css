@@ -45,3 +45,22 @@ body {
   ) !important;
   z-index: 10 !important;
 }
+
+.to-bg::before {
+  content: "";
+  position: absolute !important;
+  background: url("/images/bg.0d4c9dd2.jpg");
+  background-size: cover !important;
+  width: calc(100vw - 1rem) !important;
+  height: 100vh !important;
+  z-index: -2;
+}
+
+.to-bg::after {
+  content: "";
+  position: absolute !important;
+  background: radial-gradient(at center, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1));
+  width: calc(100vw - 1rem) !important;
+  height: 100vh !important;
+  z-index: -1;
+}

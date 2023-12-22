@@ -43,12 +43,12 @@ export default function TokenTech() {
         <div>
           <div className="my-8">
             <div className="flex gap-4">
-              <div className="text-left text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6">
+              <div className="text-left text-3xl lg:text-4xl font-semibold text-[#d4d4d4] mb-6">
                 STARV3 Token Technology
               </div>
               <div>
                 <Image
-                  className="w-[2.5rem] rounded-full z-10"
+                  className="w-[2.5rem] rounded-full z-10 lg:block hidden"
                   src="/Images/metatron-logo.webp"
                   alt=""
                   width={1024}

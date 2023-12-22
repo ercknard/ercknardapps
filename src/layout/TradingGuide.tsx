@@ -42,7 +42,7 @@ export default function TradingGuide() {
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8 text-center">
-            <div className="text-left text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6">
+            <div className="text-left text-3xl lg:text-4xl font-semibold text-[#d4d4d4] mb-6">
               STARV3 Trading Guide
             </div>
           </div>

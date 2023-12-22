@@ -3,14 +3,14 @@ import Button from "@mui/material/Button";
 
 export default function Landing() {
   return (
-    <section className="lg:w-full w-[90%] min-h-screen flex justify-center mx-auto items-center">
+    <section className="lg:w-full w-[90%] min-h-screen flex justify-center mx-auto items-center to-bg">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div>
-            <div className="text-center text-5xl lg:text-[6rem] font-extrabold tracking-wide underline underline-offset-8 decoration-4 main-font">
+            <div className="text-center text-6xl lg:text-[6rem] font-extrabold tracking-wide underline underline-offset-8 decoration-4 main-font">
               Starseeds Protocol
             </div>
-            <div className="text-center text-lg lg:text-4xl font-bold mx-auto text-[#d4d4d4] mb-2">
+            <div className="text-center text-2xl lg:text-4xl font-bold mx-auto text-[#d4d4d4] mb-2">
               Omnichain Yield Optimizer
             </div>
             <div className="text-center text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">

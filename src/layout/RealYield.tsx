@@ -55,7 +55,7 @@ export default function RealYield() {
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div className="w-full">
           <div className="my-8 mx-auto">
-            <div className=" text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6 text-left">
+            <div className="text-3xl lg:text-4xl font-semibold text-[#d4d4d4] mb-6 text-left">
               Real Yield NFTs
             </div>
             <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">

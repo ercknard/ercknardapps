@@ -53,7 +53,7 @@ export default function UnderstandingDefi() {
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">
-            <div className=" text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6 text-left">
+            <div className="text-3xl lg:text-4xl font-semibold text-[#d4d4d4] mb-6 text-left">
               Understanding DeFi
             </div>
             {/* <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
@@ -65,7 +65,7 @@ export default function UnderstandingDefi() {
           </div>
           <div className="flex lg:flex-row flex-col my-4 gap-8 mx-auto">
             <div>
-              <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
+              <div className="text-left text-xl lg:text-xl font-medium mx-auto text-[#d4d4d4]">
                 Basics
               </div>
               {pools.map((item) => (
@@ -86,7 +86,7 @@ export default function UnderstandingDefi() {
             </div>
 
             <div>
-              <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
+              <div className="text-left text-xl lg:text-xl font-medium mx-auto text-[#d4d4d4]">
                 Defi 101
               </div>
               {defi.map((item) => (
@@ -107,7 +107,7 @@ export default function UnderstandingDefi() {
             </div>
 
             <div className="w-full">
-              <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
+              <div className="text-left text-xl lg:text-xl font-medium mx-auto text-[#d4d4d4]">
                 Other resources
               </div>
               <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4] mt-8 mb-4">

@@ -7,7 +7,7 @@ export default function CoinChart() {
       <div className="w-full flex flex-col-reverse items-center justify-center gap-8">
         <div className="w-full">
           <div className="my-8">
-            <div className=" text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6 text-left">
+            <div className="text-3xl lg:text-4xl font-semibold text-[#d4d4d4] mb-6 text-left">
               STARV3 Coin Chart Graph
             </div>
           </div>

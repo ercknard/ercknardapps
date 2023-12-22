@@ -38,7 +38,7 @@ export default function Balancer() {
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">
-            <div className="text-left text-lg lg:text-4xl font-semibold mx-auto text-[#d4d4d4] mb-6">
+            <div className="text-left text-3xl lg:text-4xl font-semibold mx-auto text-[#d4d4d4] mb-6">
               Balancer Liquidity Pools
             </div>
             <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
