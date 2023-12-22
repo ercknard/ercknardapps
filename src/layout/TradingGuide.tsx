@@ -40,9 +40,9 @@ export default function TradingGuide() {
   return (
     <section className="w-full flex justify-center mx-auto items-center py-8">
       <div className="flex flex-col-reverse items-center justify-center gap-8">
-        <div className="w-[69.25%]">
+        <div>
           <div className="my-8 text-center">
-            <div className=" text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-2">
+            <div className="text-left text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6">
               STARV3 Trading Guide
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function TradingGuide() {
                   Mint
                 </div>
                 <div className="text-base text-gray-400 font-extralight text-left normal-case min-h-[4.5rem]">
-                  int, upgrade, trade and collect token streams from yield
+                  Mint, upgrade, trade and collect token streams from yield
                   generating NFTs funded via StarSeeds Protocol DEX trading and
                   liquidity strategies.
                 </div>

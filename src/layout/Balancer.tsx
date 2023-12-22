@@ -38,35 +38,35 @@ export default function Balancer() {
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">
-            <div className="text-center text-lg lg:text-4xl font-semibold mx-auto text-[#d4d4d4] mb-2">
+            <div className="text-left text-lg lg:text-4xl font-semibold mx-auto text-[#d4d4d4] mb-6">
               Balancer Liquidity Pools
             </div>
-            <div className="text-center text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
+            <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
               Benefit from automated arbitrage trading bots that multiply volume
               and fees
             </div>
           </div>
-          <div className="flex flex-wrap my-4 gap-6 justify-center mx-auto">
+          <div className="flex flex-wrap my-4 gap-6 justify-left mx-auto">
             {pools.map((item) => (
               <Button
                 key={item.name}
-                className="w-4/12 min-h-[13.5rem] bg-[#242842] border-2 border-[#1c1e32] p-4 rounded-lg"
+                className="w-[48.5%] min-h-[13.5rem] bg-[#242842] border-2 border-[#1c1e32] p-4 rounded-lg"
               >
-                <a href={item.href}>
-                  <div>
-                    <div className="pb-6 text-lg font-normal text-gray-200 text-left normal-case">
+                <a className="w-full" href={item.href}>
+                  <div className="w-full">
+                    <div className="w-full pb-6 text-lg font-normal text-gray-200 text-left normal-case">
                       {item.name}
                     </div>
-                    <div className="flex my-4">
+                    <div className="w-full flex my-4">
                       <Image
-                        className="w-1/12 rounded-full z-10"
+                        className="w-[5%] rounded-full z-10"
                         src="/Images/metatron-logo.webp"
                         alt=""
                         width={1024}
                         height={1114}
                       />
                       <Image
-                        className="relative w-1/12 rounded-full -left-1"
+                        className="relative w-[5%] rounded-full -left-1"
                         src="/Images/metatron-logo.webp"
                         alt=""
                         width={1024}

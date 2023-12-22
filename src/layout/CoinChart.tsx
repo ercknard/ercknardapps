@@ -7,7 +7,7 @@ export default function CoinChart() {
       <div className="w-full flex flex-col-reverse items-center justify-center gap-8">
         <div className="w-full">
           <div className="my-8">
-            <div className=" text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-2 text-center">
+            <div className=" text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6 text-left">
               STARV3 Coin Chart Graph
             </div>
           </div>
@@ -16,7 +16,7 @@ export default function CoinChart() {
             <iframe
               id="dextools-widget"
               title="DEXTools Trading Chart"
-              className="w-[68.25%] h-[600px] mx-auto"
+              className="w-full h-[600px] mx-auto"
               src="https://www.dextools.io/widget-chart/en/polygon/pe-light/0x3443e3942053fc44ee07b7ad62a04276dd52b4a9-0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270-0xa571963278014b5b3a686778747fdf8ad4dfbb94?theme=light&chartType=2&chartResolution=30&drawingToolbars=false"
             ></iframe>
           </div>

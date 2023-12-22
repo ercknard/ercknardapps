@@ -42,8 +42,8 @@ export default function TokenTech() {
       <div className="flex flex-col-reverse items-center justify-center gap-8">
         <div>
           <div className="my-8">
-            <div className="flex gap-4 justify-center">
-              <div className=" text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-2">
+            <div className="flex gap-4">
+              <div className="text-left text-lg lg:text-4xl font-semibold text-[#d4d4d4] mb-6">
                 STARV3 Token Technology
               </div>
               <div>
@@ -56,7 +56,7 @@ export default function TokenTech() {
                 />
               </div>
             </div>
-            <div className="text-center text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
+            <div className="text-left text-lg lg:text-xl font-medium mx-auto text-[#d4d4d4]">
               STARV3: Automated trade volume, reducing supply, and increasing
               liquidity.
             </div>
@@ -65,7 +65,7 @@ export default function TokenTech() {
             {pools.map((item) => (
               <Button
                 key={item.name}
-                className="w-[68.25%] min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg mx-auto"
+                className="w-full min-h-[13.5rem] bg-[#242842] p-4 pt-0 border-2 border-[#1c1e32] rounded-lg mx-auto"
               >
                 <a className="w-full" href={item.href}>
                   <div className="flex justify-center text-lg font-semibold text-gray-200 text-center items-center bg-[#444c81] rounded-[40px] w-[35px] h-[35px] ">
